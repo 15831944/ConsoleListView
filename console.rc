@@ -1,0 +1,196 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_COMPUTER            BITMAP                  "Computer.bmp"
+IDB_INTERFACE           BITMAP                  "Interface.bmp"
+IDB_INTERFACEHOT        BITMAP                  "Interface Hot.bmp"
+IDB_DEFAULT             BITMAP                  "DefaultI.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "E&xit",                       ID_FILE_EXIT
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDC_STEALTHDIALOG ACCELERATORS 
+BEGIN
+    "/",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+    "?",            IDM_ABOUT,              ASCII,  ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 22, 17, 205, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_CAPTION | WS_SYSMENU
+CAPTION "About"
+FONT 8, "MS Shell Dlg", 0, 0, 0x0
+BEGIN
+    ICON            IDI_STEALTHDLG,IDC_MYICON,14,13,20,20
+    LTEXT           "Blah blah blah blah...",IDC_STATIC,49,14,119,8,
+                    SS_NOPREFIX
+    DEFPUSHBUTTON   "OK",IDOK,169,6,30,13,WS_GROUP
+END
+
+IDD_DLG_DIALOG DIALOGEX 0, 0, 178, 92
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_MINIMIZEBOX | 
+    WS_POPUP | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Not Much Here"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "Done",IDOK,63,35,50,16
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_STEALTHDLG          ICON                    "StealthDialog.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_MERCURY             "Mercury"
+    IDS_MERCURY_O           "57,910,00 km (0.38 AU) (distance from the sun)"
+    IDS_MERCURY_D           "4,880 km"
+    IDS_MERCURY_M           "3.30e23 kg"
+    IDS_VENUS               "Venus"
+    IDS_VENUS_O             "108,200,000 km (0.72 AU) (distance from the sun)"
+    IDS_VENUS_D             "12,103.6 km"
+    IDS_VENUS_M             "4.869e24 kg"
+    IDS_EARTH               "Earth"
+    IDS_EARTH_O             "149,600,000 km (1.00 AU) (distance from the sun)"
+    IDS_EARTH_D             "12,756.3 km"
+    IDS_EARTH_M             "5.9736e24 kg"
+    IDS_MARS                "Mars"
+    IDS_MARS_O              "227,940,000 km (1.52 AU) (distance from the sun)"
+    IDS_MARS_D              "6,794 km"
+    IDS_MARS_M              "6.4219e23 kg"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_PLUTO               "Pluto"
+    IDS_PLUTO_O             "5,913,520,000 km (39.5 AU) (distance from the sun)"
+    IDS_PLUTO_D             "2274 km"
+    IDS_PLUTO_M             "1.27e22 kg"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_JUPITER             "Jupiter"
+    IDS_JUPITER_O           "778,330,000 km (5.20 AU) (distance from the sun)"
+    IDS_JUPITER_D           "142,984 km"
+    IDS_JUPITER_M           "1.900e27 kg"
+    IDS_SATURN              "Saturn"
+    IDS_SATURN_O            "1,429,400,000 km (9.54 AU) (distance from the sun)"
+    IDS_SATURN_D            "120,536 km"
+    IDS_SATURN_M            "5.68e26 kg"
+    IDS_URANUS              "Uranus"
+    IDS_URANUS_O            "2,870,990,000 km (19.218 AU) (distance from the sun)"
+    IDS_URANUS_D            "51,118 km"
+    IDS_URANUS_M            "8.683e25 kg"
+    IDS_NEPTUNE             "Neptune"
+    IDS_NEPTUNE_O           "4,504,000,000 km (30.06 AU) (distance from the sun)"
+    IDS_NEPTUNE_D           "49,532 km"
+    IDS_NEPTUNE_M           "1.0247e26 kg"
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// RT_MANIFEST
+//
+
+IDR_MANIFEST            RT_MANIFEST             "stealth.manifest"
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
